@@ -1,0 +1,47 @@
+{
+  "name": "travelsnap",
+  "version": "1.0.0",
+  "description": "Travel photography platform for Nucamp NodeJS, Express and MongoDB bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuadanpeterson/travel-snap.git"
+  },
+  "keywords": [
+    "travel",
+    "photography",
+    "social",
+    "media",
+    "sharing",
+    "express",
+    "nodejs",
+    "mongodb",
+    "google",
+    "cloud",
+    "storage"
+  ],
+  "author": "Josh Peterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuadanpeterson/travel-snap/issues"
+  },
+  "homepage": "https://github.com/joshuadanpeterson/travel-snap#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
